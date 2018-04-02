@@ -1,0 +1,82 @@
+@import "_reset.less";
+@import "_common.less";
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	min-width: 1200px;
+	.page1{
+		width: 100%;
+		height: 940px;
+		background: url(../img/page1Bg.png) no-repeat  top center ;
+		.p1btns{
+			width: 417px;
+			height:109px;
+			background: url(../img/btnsBg.png) no-repeat  top center ;
+			left:50%;
+			top:535px;
+			margin-left: -208.5px;
+			.btnImgs{
+				display: block;
+				width: 135px;
+				height: 40px;
+				top:50%;
+				margin-top: -20px;
+				left:50%;
+				&.btnImgs1{
+					background: url(../img/app.png) no-repeat  top center ;
+					margin-left: -150px;
+					&:hover{
+						background: url(../img/app_hv.png) no-repeat  top center ;
+					}
+				}
+				&.btnImgs2{
+					background: url(../img/google.png) no-repeat  top center ;
+					margin-left: 15px;
+					&:hover{
+						background: url(../img/google_hv.png) no-repeat  top center ;
+					}
+				}
+			}
+		}
+		.p1share{
+			width: 328px;
+			left:50%;
+			top:660px;
+			margin-left: -164px;
+			.shareImgs{
+				display: block;
+				float: left;
+				width: 40px;
+				height: 40px;
+				margin: 0 21px;
+				&.shareImgs1{
+					background: url(../img/FB.png) no-repeat  top center ;
+				}
+				&.shareImgs2{
+					background: url(../img/Twitter.png) no-repeat  top center ;
+				}
+				&.shareImgs3{
+					background: url(../img/youtube.png) no-repeat  top center ;
+				}
+				&.shareImgs4{
+					background: url(../img/instagram.png) no-repeat  top center ;
+				}
+			}
+		}
+	}
+	.page2{
+		width: 100%;
+		z-index: 10;
+		.p2Title{
+			width: 100%;
+			height: 150px;
+			background: url(../img/feaTitle.png) no-repeat  top center ;
+		}
+		.p2Img{
+			width: 100%;
+			height: 627px;
+			background: url(../img/feaImg.png) no-repeat  top center ;
+		}
+	}
+}
